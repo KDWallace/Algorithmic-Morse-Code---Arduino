@@ -1,9 +1,9 @@
-#define TIME_DELAY 200
-
 // KDWallace 2023.12.28
 // A simple algorithmic approach to morse code
 // currently 956 bytes of storage and 9 bytes of dynamic memory when string is removed from the function (2044B storage and 53B of dynamic memory with morse("Hello World");)
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+#define TIME_DELAY 200
 
 // simple function for turning light on and off for time/1000 seconds
 void blink(int time)
